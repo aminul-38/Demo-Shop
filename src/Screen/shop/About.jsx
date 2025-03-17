@@ -11,7 +11,7 @@ const About = () => {
           experience that&apos;s both convenient and enjoyable.
         </p>
         <h2>Our Mission</h2>
-        <p className="fw-medium fs-1">
+        <p className="fw-medium fs-4">
           Our mission is to offer a curated selection of premium gadgets
           products. We believe that access to quality products can enhance your
           daily life.
