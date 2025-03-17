@@ -4,7 +4,7 @@ const Header = () => {
       <header className="container">
         <img
           className="logo"
-          src="https://github.com/aminul-38/Demo-Shop/blob/main/src/Images/logo.png"
+          src="https://aminul-38.github.io/Demo-Shop/src/Images/logo.png"
           alt=""
         />
       </header>

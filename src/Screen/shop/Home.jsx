@@ -5,7 +5,7 @@ const Home = () => {
     const cartItem = JSON.parse(localStorage.getItem("cartProduct")) || [];
     cartItem.push(product);
     localStorage.setItem("cartProduct", JSON.stringify(cartItem));
-    window.location.href = "https://aminul-38.github.io/Demo-Shop/";
+    window.location.href = "/Demo-Shop/";
     alert("Item added to cart.");
   };
 
