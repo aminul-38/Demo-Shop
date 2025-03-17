@@ -14,7 +14,7 @@ const Navbar = () => {
         localStorage.removeItem("user");
         localStorage.removeItem("cartProduct");
         alert("Your are loged out!");
-        window.location.href = "/";
+        window.location.href = "/Demo-Shop/";
       })
       .catch((error) => {
         // An error happened.

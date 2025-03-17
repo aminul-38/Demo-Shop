@@ -18,7 +18,7 @@ const Login = () => {
         const user = userCredential.user;
         localStorage.setItem("user", JSON.stringify({ email: user.email }));
         console.log(user.email);
-        window.location.href = "/";
+        window.location.href = "/Demo-Shop/";
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -32,7 +32,7 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         localStorage.setItem("user", JSON.stringify({ email: user.email }));
-        window.location.href = "/";
+        window.location.href = "/Demo-Shop/";
       })
       .catch((error) => {
         console.log(error);
@@ -44,7 +44,7 @@ const Login = () => {
         <h2 className="log">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label for="username">Email:</label>
+            <label htmlFor="username">Email:</label>
             <input
               onChange={(e) => setEmail(e.target.value)}
               type="text"
@@ -54,7 +54,7 @@ const Login = () => {
             />
           </div>
           <div className="form-group">
-            <label for="password">Password:</label>
+            <label htmlFor="password">Password:</label>
             <input
               onChange={(e) => setPassword(e.target.value)}
               type="password"

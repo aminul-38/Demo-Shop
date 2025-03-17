@@ -5,7 +5,7 @@ const Product = () => {
     const cartItem = JSON.parse(localStorage.getItem("cartProduct")) || [];
     cartItem.push(product);
     localStorage.setItem("cartProduct", JSON.stringify(cartItem));
-    window.location.href = "/product";
+    window.location.href = "/Demo-Shop/product";
     alert("Item added to cart.");
   };
   return (

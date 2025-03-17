@@ -23,7 +23,7 @@ const Signup = () => {
         const user = userCredential.user;
         localStorage.setItem("user", JSON.stringify({ email: user.email }));
         console.log(user);
-        window.location.href = "/";
+        window.location.href = "/Demo-Shop/";
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -37,7 +37,7 @@ const Signup = () => {
         const user = result.user;
         console.log(user);
         localStorage.setItem("user", JSON.stringify({ email: user.email }));
-        window.location.href = "/";
+        window.location.href = "/Demo-Shop/";
       })
       .catch((error) => {
         console.log(error);
@@ -54,7 +54,7 @@ const Signup = () => {
             <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                  <label for="username">Username</label>
+                  <label htmlFor="username">Username</label>
                   <input
                     onChange={(e) => setUsername(e.target.value)}
                     type="text"
@@ -65,7 +65,7 @@ const Signup = () => {
                   />
                 </div>
                 <div className="form-group mt-3">
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     onChange={(e) => setEmail(e.target.value)}
                     type="email"
@@ -76,7 +76,7 @@ const Signup = () => {
                   />
                 </div>
                 <div className="form-group mt-3">
-                  <label for="password">Password</label>
+                  <label htmlFor="password">Password</label>
                   <input
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
@@ -87,7 +87,7 @@ const Signup = () => {
                   />
                 </div>
                 <div className="form-group mt-3">
-                  <label for="confirmPassword">Confirm Password</label>
+                  <label htmlFor="confirmPassword">Confirm Password</label>
                   <input
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     type="password"

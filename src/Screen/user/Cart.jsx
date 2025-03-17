@@ -7,7 +7,7 @@ const Cart = () => {
     const newCart = cartItem.filter((item) => item.id != id);
     localStorage.setItem("cartProduct", JSON.stringify(newCart));
     alert("Item Remove");
-    window.location.href = "/cart";
+    window.location.href = "/Demo-Shop/cart";
   };
   return (
     <>
