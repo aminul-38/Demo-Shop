@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(124, 113, 113, 0.295);}
+.Nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(124, 113, 113, 0.295);}
+footer {
+  background-color: rgba(124, 113, 113, 0.295);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  color: rgb(0, 0, 0);
+}
+
+p.copy {
+  font-size: 15px;
+}
+
+p.dev {
+  font-size: 12px;
+}
+.home{
+    background-color: rgba(124, 113, 113, 0.295);
+}
+.carimg {
+  height: 344px;
+  width: 938px;
+}
+.cardimg{
+  height: 354px;
+  width: 100%;
+}
+.fa-star{
+  color: gold;
+}
+.product{
+  background-color: rgba(124, 113, 113, 0.295);
+}
+.about{
+  background-color: rgba(124, 113, 113, 0.295);
+}
+/* .sign{
+background-color: rgba(124, 113, 113, 0.295);
+} */
+.cart{
+  background-color: rgba(124, 113, 113, 0.295);
+}
+.emo{
+    height: 400px;
+      width: 348px;
+}
