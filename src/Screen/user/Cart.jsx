@@ -60,7 +60,7 @@ const Cart = () => {
         ) : (
           <div className="card d-grid mx-auto col-4 p-3">
             <img
-              src="src/Images/emoji.png"
+              src="src\Images\emoji.png"
               className="w-100 card-img-top emo justify-content-center"
               alt="..."
             />
